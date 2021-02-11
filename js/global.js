@@ -23,7 +23,7 @@ form.addEventListener('submit', function(event){
     myResult.innerHTML="Sum is " + result ;
   }
   else{
-    myResult.innerHTML="Invalid option" ;
+    myResult.innerHTML="Please select a valid math option" ;
   }
 
   event.preventDefault();
