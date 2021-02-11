@@ -11,6 +11,9 @@ fieldset{
   padding: 2rem;
   font-size: 18px;
 }
+fieldset *{
+  display:block;
+}
 .wrapper > div{
   margin: 10px;
 }
@@ -24,4 +27,7 @@ button{
   display: block;
   min-width: 100px;
   height: 25px;
+}
+input,select{
+  padding:5px;
 }
