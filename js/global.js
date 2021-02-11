@@ -23,6 +23,7 @@ form.addEventListener('submit', function(event){
     myResult.innerHTML="Quotient is " + result ;
   }
   else{
+    myResult.style.color="red";
     myResult.innerHTML="Please select a valid math option" ;
   }
 
