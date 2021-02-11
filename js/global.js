@@ -6,6 +6,7 @@ form.addEventListener('submit', function(event){
   const myResult=document.querySelector('#result');
   const mathSelect=document.querySelector('#mathSelect').selectedIndex;
   let result;
+  myResult.style.color="blue";
   if(mathSelect=== 1){
     result = num1 + num2;
     myResult.innerHTML="Sum is " + result ;
